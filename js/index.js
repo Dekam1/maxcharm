@@ -1,7 +1,7 @@
 function setElementHeight() {
     var windowHeight = window.innerHeight;
-    var element = document.getElementsByClassName('page__main-block');
-    element.style.height = windowHeight + 'px';
+    var element = document.querySelector('.page__main-block');
+    element.style.minHeight = windowHeight + 'px';
 }
 
 // Вызываем функцию при загрузке страницы и при изменении размеров окна
