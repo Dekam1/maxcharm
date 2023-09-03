@@ -1,10 +1,9 @@
-document.addEventListener('DOMContentLoaded', function () {
-    window.addEventListener('resize', function () {
-        var screenHeight = window.innerHeight;
-        var elements = document.getElementsByClassName('page__main-block');
+function setElementHeight() {
+    var windowHeight = window.innerHeight;
+    var element = document.getElementsByClassName('page__main-block');
+    element.style.height = windowHeight + 'px';
+}
 
-        for (var i = 0; i < elements.length; i++) {
-            elements[i].style.height = screenHeight + 'px';
-        }
-    });
-});
+// Вызываем функцию при загрузке страницы и при изменении размеров окна
+window.addEventListener('resize', setElementHeight);
+window.addEventListener('load', setElementHeight);
