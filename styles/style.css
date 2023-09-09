@@ -192,7 +192,13 @@ body {
 }
 
 .page__reflections {
-    padding: 153px 0px 50px 0px;
+    padding: 153px 0px 50px 50px;
+}
+
+@media(max-width: 464px) {
+    .page__reflections {
+        padding: 161px 0px 50px 28px;
+    }
 }
 
 /* -------MAIN-BLOCK-------------------------------------------------------------------------------- */
@@ -566,6 +572,29 @@ body {
 
 .clouds__cloud>img {
     width: 100%;
+}
+
+.reflections__text {
+    margin: 82px 0px 0px 0px;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 464px) {
+    .reflections__text {
+        margin: 146px auto 0px auto;
+        width: 283px;
+        font-size: 16px;
+    }
+}
+
+.reflections__text>p {
+    color: #00131E;
+}
+
+.reflections__text>h2 {
+    color: #00ACC8;
 }
 
 
