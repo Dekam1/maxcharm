@@ -192,12 +192,12 @@ body {
 }
 
 .page__reflections {
-    padding: 153px 0px 50px 50px;
+    padding: 153px 0px 50px 0px;
 }
 
 @media(max-width: 464px) {
     .page__reflections {
-        padding: 161px 0px 50px 28px;
+        padding: 161px 0px 28px 0px;
     }
 }
 
