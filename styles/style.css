@@ -702,3 +702,26 @@ body {
         width: 87px;
     }
 }
+
+.reflections__text {
+    margin: 82px 0px 0px 0px;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.reflections__text>p {
+    color: #00131E;
+}
+
+.reflections__text>h2 {
+    color: #00ACC8;
+}
+
+@media (max-width: 464px) {
+    .reflections__text {
+        margin: 146px auto 0px auto;
+        font-size: 16px;
+        width: 355px;
+    }
+}
